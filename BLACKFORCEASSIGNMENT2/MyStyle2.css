@@ -1,0 +1,53 @@
+*{
+  width: 75vw;
+  margin-right: 15px;
+}
+  body{
+    background-color: rgb(243, 242, 242);
+    
+     
+  }
+  .container{
+    margin-left: 150px;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    word-wrap: break-word;
+    line-height: 40px;
+    font-display: centre;
+    padding-right: 150px;
+    text-align: right;
+    text-align: justify;
+    
+  }
+  .column {
+    background-color: white;
+    float: left;
+    width: 80%;
+    padding: 30px;
+    margin: 30px;
+    width: 75vw;
+   }
+   .row {
+     display: table;
+     clear: both;
+     content: "";
+   }
+   h1, h4{
+     text-align: center;
+   }
+   h1{
+     font-size: 48px;
+   }
+   h4{
+     font-size: 20px;
+   }
+   .end{
+     text-align: center;
+     font-weight: bolder;
+     font-size: 20px;
+   }
+   p{
+     font-style: italic;
+
+   }

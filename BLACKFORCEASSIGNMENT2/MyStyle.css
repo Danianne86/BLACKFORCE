@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.topnav {
+    position: fixed;
+    background-color: rgb(187, 27, 27);
+    height: 10vh;
+    width: 100vw;
+    padding-left: 70%;
+  }
+  
+  .topnav a {
+    
+    color: white;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: xx-large;
+    text-align: center; 
+  }
+.topnav a:hover {
+    background-color: rgb(61, 61, 104);
+    color: white; 
+     
+  }
+ .developer {
+     background-color: rgb(29, 26, 26);
+     color: white;
+     padding: 250px 80px;
+     font-size: xx-large;
+     font-style: normal;
+     text-align: center;
+     margin-top: 0%; 
+     height: 100vh; 
+ }
+ .developer p {
+   font-style: italic;
+   color: rgb(121, 16, 16);
+   font-size: larger;
+  }
+ .MyWork {
+   background-color: rgb(17, 50, 82);
+   height: 200vh;
+   
+ }
+ .MyWork h1{
+   padding: 50px;
+   color: white;
+   font-size: 50px;
+   font-weight: bolder;
+   text-align: center;
+   
+ }
+ .column {
+  float: left;
+  width: 33.3%;
+  padding: 20px 20px;
+ }
+ .row {
+   display: table;
+   clear: both;
+   content: "";
+ }
+ .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(29, 26, 26);
+  padding-bottom: 16px;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+ }
+.card a{
+  text-decoration: none;
+  color: white;
+}
+
+.Container {
+  background-color: rgb(121, 16, 16);
+  height: 100vh;
+}
+.Worktogether{
+  background-color: rgb(29, 26, 26);
+  color: white;
+  height: 80vh;
+  text-align: center;
+}
+.Worktogether h1{
+  font-size: 80px;
+  padding-top: 150px;
+  padding-bottom: 10px;
+}
+.Worktogether p{
+  font-style: italic;
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+.Portfolio h2{
+  background-color: rgb(29, 26, 26);
+  height:20vh ;
+  margin-top: 10px;
+  color: white;
+  padding-top: 50px;
+  padding-left: 100px;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 20px;
+}
+.Portfolio h2 a{
+  text-decoration: none;
+  color: white;
+  padding-left: 100px;
+}
+.Worktogether span{
+  color: White;
+  font-size: 24px;
+
+}
+.Worktogether span a{
+  text-decoration: none;
+  color: white;
+}
+.Worktogether span i{
+  font-size: 30px;
+}
